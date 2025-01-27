@@ -1,0 +1,8 @@
+pymongo
+pandas
+numpy
+scikit-learn
+Levenshtein
+joblib
+markdown-it-py
+tensorflow
