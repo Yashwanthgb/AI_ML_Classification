@@ -167,10 +167,10 @@ class MongoDataFetcher:
 
 def main():
     # Configuration
-    MONGO_URI = "mongodb://iRecon:AppleiRecon%2314210@rn3-irecont-lmdb08.rno.apple.com:10906/CCiRecon_I001_DEV0?authSource=CCiRecon_I001_DEV0"
-    DB_NAME = 'CCiRecon_I166_DEV0'
-    COLLECTION_NAME = 'match_batchId_13433617'
-    BATCH_ID = '13433617'
+    MONGO_URI = "MongoDB URL Link"
+    DB_NAME = 'DB_Name'
+    COLLECTION_NAME = 'match_batchId_xxxxx'
+    BATCH_ID = 'xxxxxx'
 
     try:
         fetcher = MongoDataFetcher(MONGO_URI, DB_NAME, COLLECTION_NAME, BATCH_ID)
